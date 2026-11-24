@@ -1,0 +1,10 @@
+name: XaeroGuard
+version: 1.0.0
+main: com.yourserver.xaeroguard.XaeroGuard
+api-version: '1.21'
+description: Disables Xaero's Minimap, enforces fair-play mode on World Map, and kicks clients announcing Xaero channels.
+
+permissions:
+  xaeroguard.bypass:
+    description: Allows a player to bypass Xaero restrictions
+    default: op
